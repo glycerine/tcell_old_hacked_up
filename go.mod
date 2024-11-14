@@ -1,6 +1,6 @@
 module github.com/glycerine/tcell_old_hacked_up
 
-go 1.23.3
+go 1.23.2
 
 require (
 	github.com/gdamore/encoding v1.0.1
