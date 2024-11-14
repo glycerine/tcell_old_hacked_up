@@ -17,7 +17,7 @@ package views
 import (
 	"sync"
 
-	"github.com/gdamore/tcell"
+	"github.com/glycerine/tcell_old_hacked_up"
 )
 
 // Application represents an event-driven application running on a screen.

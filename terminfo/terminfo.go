@@ -801,7 +801,7 @@ func LookupTerminfo(name string) (*Terminfo, error) {
 		}
 
 		for _, pth := range strings.Split(os.Getenv("GOPATH"), string(os.PathListSeparator)) {
-			pth = path.Join(pth, "src", "github.com", "gdamore", "tcell", "terminfo", "database")
+			pth = path.Join(pth, "src", "github.com", "glycerine", "tcell_old_hacked_up", "terminfo", "database")
 			files = append(files, path.Join(pth, gzfile))
 			files = append(files, path.Join(pth, jsfile))
 		}

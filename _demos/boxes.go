@@ -22,7 +22,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/gdamore/tcell"
+	"github.com/glycerine/tcell_old_hacked_up"
 )
 
 func makebox(s tcell.Screen) {

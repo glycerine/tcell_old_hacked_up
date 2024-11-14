@@ -15,7 +15,7 @@
 package views
 
 import (
-	"github.com/gdamore/tcell"
+	"github.com/glycerine/tcell_old_hacked_up"
 )
 
 // Spacer is a Widget that occupies no visible real-estate.  It is useful to

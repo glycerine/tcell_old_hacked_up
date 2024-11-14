@@ -44,7 +44,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gdamore/tcell/terminfo"
+	"github.com/glycerine/tcell_old_hacked_up/terminfo"
 )
 
 type termcap struct {
