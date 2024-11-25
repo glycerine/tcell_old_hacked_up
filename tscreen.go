@@ -16,6 +16,7 @@ package tcell
 
 import (
 	"bytes"
+	"fmt"
 	"io"
 	"os"
 	"strconv"
@@ -120,6 +121,7 @@ func (t *tScreen) Init() error {
 		t.encoder = enc.NewEncoder()
 		t.decoder = enc.NewDecoder()
 	} else {
+		fmt.Printf("t.charset = '%v', and GetEncoding returned nil.\n", t.charset)
 		return ErrNoCharset
 	}
 	ti := t.ti
